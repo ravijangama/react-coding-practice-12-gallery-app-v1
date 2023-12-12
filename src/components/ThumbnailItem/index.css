@@ -1,0 +1,19 @@
+/* Write your code here. */
+.image-li-container {
+  list-style-type: none;
+  margin-right: 16px;
+  margin-bottom: 12px;
+}
+.image-btn {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  opacity: 0.5;
+}
+.active {
+  opacity: 1;
+}

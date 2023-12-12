@@ -1,0 +1,54 @@
+/* Write your code here. */
+.bg-container {
+  background-color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.sub-bg-container {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 768px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo-container {
+  width: 80%;
+}
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-bottom: 28px;
+  margin-top: 20px;
+}
+.creator {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+.image-url {
+  width: 358px;
+  height: 40vh;
+}
+@media screen and (min-width: 768px) {
+  .image-url {
+    width: 600px;
+    height: 60vh;
+  }
+  .heading {
+    font-size: 18px;
+  }
+  .creator {
+    font-size: 12px;
+  }
+}
+.images-ul-container {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70vw;
+}
